@@ -37,6 +37,8 @@ public class Alumno {
             return 'C';
         } else if (promedio >= 61 && promedio <= 70) {
             return 'D';
+        } else if (promedio >= 51 && promedio <= 60) {
+            return 'E';           
         } else {
             return 'F';
         }
